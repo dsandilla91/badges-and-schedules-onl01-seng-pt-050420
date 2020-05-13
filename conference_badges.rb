@@ -12,7 +12,7 @@ def assign_rooms(attendees)
   
  attendees.each_with_index.map do |badge_maker, idx|
 
-   "Hello, #{badge_maker}! You'll be assigned to room #{idx}!" 
+   "Hello, #{badge_maker}! You'll be assigned to room #{idx+1}!" 
   end 
 end
 def printer
